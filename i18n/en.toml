@@ -2,13 +2,13 @@
 # Menu
 ###################
 [menuCategories]
-other = "Categories"
+other = "categories"
 
 [menuTags]
-other = "Tags"
+other = "tags"
 
 [menuProjects]
-other = "Projects"
+other = "projects"
 
 [menuBurgerTitle]
 other = "Menu"
