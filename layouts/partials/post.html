@@ -69,8 +69,14 @@
     </div>
   </div>  
   {{ if not .Site.BuildDrafts }}
-  <div class="post-comment">    
-    {{ template "_internal/disqus.html" . }}    
+  <div class="post-comment">  
+    <script src="https://utteranc.es/client.js"
+        repo="joone/joone.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
   </div>
   {{ end }}
   <div class="recommend-articles">
